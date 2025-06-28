@@ -77,3 +77,14 @@ output.xlsx     # Backend specific file
 # 🔒 Optional Certificates Folder
 # ===============================
 cert/
+
+# ✅ Specific Exclusions
+# Ignore dingg-related files
+admin/controllers/dingg.controller.js
+admin/routes/dingg.routes.js
+admin/services/dingg.service.js
+admin/validate_schema/dingg.schema.js
+
+# Ignore public folder
+public/
+env.txt/
