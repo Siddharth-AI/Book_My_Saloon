@@ -1,0 +1,27 @@
+{
+  "app": {
+    "vat": 7,
+    "version": "1.0.0",
+    "name": "Risk Management",
+    "title": "Risk Management",
+    "short_name": "RM",
+    "domain": "riskmanagement.com",
+    "email": "info@riskmanagement.com",
+    "admin_email": "manao@riskmanagement.com",
+    "developer_email": "pradeep.mp09@gmail.com"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "database": "dingg_partner",
+    "timezone": "+00:00"
+  },
+  "mailer": {
+    "host": "smtp.office365.com",
+    "port": 587,
+    "username": "notifications@echo-bms.com",
+    "password": "M$492043773706as"
+  }
+}
