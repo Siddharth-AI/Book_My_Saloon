@@ -3,7 +3,7 @@
 # ===============================
 # 📦 Dependencies
 # ===============================
-node_modules/    # Ignores ALL node_modules folders globally
+node_modules/ 
 .pnp
 .pnp.*
 .yarn/*
@@ -77,13 +77,6 @@ output.xlsx     # Backend specific file
 # 🔒 Optional Certificates Folder
 # ===============================
 cert/
-
-# ✅ Specific Exclusions
-# Ignore dingg-related files
-backend/admin/controllers/dingg.controller.js
-backend/admin/routes/dingg.routes.js
-backend/admin/services/dingg.service.js
-backend/admin/validate_schema/dingg.schema.js
 
 # Ignore public folder
 public/
