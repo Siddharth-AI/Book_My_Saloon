@@ -384,7 +384,7 @@ import MobileMenu from "../ui/MobileMenu";
 const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
-  { label: "Gift Card", href: "/gift-card" },
+  { label: "Gift Card", href: "/gifts" },
   { label: "About Us", href: "/about-us" },
   { label: "Contact Us", href: "/contact-us" },
 ];
@@ -401,10 +401,10 @@ export default function Header() {
       const currentScrollY = window.scrollY;
 
       // Set scrolled state for basic style changes
-      setScrolled(currentScrollY > 1);
+      setScrolled(currentScrollY > 0);
 
       // Determine visibility for hide/show effect on larger screens
-      if (currentScrollY > lastScrollY && currentScrollY > 65) {
+      if (currentScrollY > lastScrollY && currentScrollY > 70) {
         setIsVisible(false); // Hide on scroll down
       } else {
         setIsVisible(true); // Show on scroll up
