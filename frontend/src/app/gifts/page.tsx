@@ -268,30 +268,6 @@
 
 import { GiftTypeSelector } from "@/app/components/gift/GiftTypeSelector";
 
-// export default function SelectGiftTypePage() {
-//   return (
-//     <div className="bg-black py-32 px-4 text-center">
-//       <h1 className="text-3xl text-[#8B7355] font-bold shadow-lg shadow-[#8B7355] pb-6 tracking-widest mb-14">
-//         SELECT YOUR GIFT CARD TYPE
-//       </h1>
-//       <div className="flex flex-col md:flex-row justify-center gap-10 max-w-5xl mx-auto">
-//         <GiftTypeSelector
-//           title="A - GIFT A SPA VOUCHER"
-//           description="Select the amount you'd like to gift and personalize it by choosing a gift card design that suits the occasion."
-//           linkTo="/gifts/value-gifts"
-//           imgSrc="/images/gift/spa-gift.jpg"
-//         />
-//         <GiftTypeSelector
-//           title="B - GIFT A SPA SERVICE TREATMENT"
-//           description="You can gift any of our treatments or packages, or explore our website to choose the perfect treatment to give."
-//           linkTo="/gifts/select-your-treatment-or-package"
-//           imgSrc="/images/gift/spa-service-gift.jpg"
-//         />
-//       </div>
-//     </div>
-//   );
-// }
-
 export default function SelectGiftTypePage() {
   return (
     <div className="bg-black py-20 px-4 sm:py-24 md:py-32 lg:px-8">
@@ -310,12 +286,12 @@ export default function SelectGiftTypePage() {
           linkTo="/gifts/value-gifts"
           imgSrc="/images/gift/spa-gift.jpg"
         />
-        <GiftTypeSelector
+        {/* <GiftTypeSelector
           title="GIFT A SPA SERVICE"
           description="You can gift any of our treatments, or explore our website to choose the perfect treatment to give."
           linkTo="/gifts/select-your-treatment-or-package"
           imgSrc="/images/gift/spa-service-gift.jpg"
-        />
+        /> */}
       </div>
     </div>
   );
